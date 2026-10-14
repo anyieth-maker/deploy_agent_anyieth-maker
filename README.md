@@ -3,7 +3,7 @@
 `deploy_agent.sh` deploys, runs and archives the logs of the Student Attendance Tracker (`attendance_checker.py`, unmodified), and handles Ctrl+C / Ctrl+Z cleanly during deployment.
 
 ```
-deploy_agent_<username>/
+deploy_agent_anyieth-maker
 ├── deploy_agent.sh
 ├── README.md
 └── templates/   (attendance_checker.py, assets.csv, config.json - unmodified)
