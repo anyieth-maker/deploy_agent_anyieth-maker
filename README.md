@@ -152,3 +152,10 @@ unzip -l attendance_tracker_demo_archive.zip
 
 - Run the script from a terminal; it is interactive by design.
 - Generated `attendance_tracker_*/` folders and `*_archive.zip` files are git-ignored.
+
+## Requirements and platform notes
+
+- Needs `bash`, `python3` and `zip`. The script checks all three (and prints `python3 --version`) before deploying.
+- **Linux / macOS / WSL (Ubuntu):** `zip` is usually available. If not, install it with `sudo apt install zip` or `brew install zip`.
+- **Git Bash on Windows:** `zip` is not included. Either use WSL, or place `zip.exe` and `bzip2.dll` (from GnuWin32) in `~/bin`.
+- Without `zip`, the script stops at pre-flight with a clear message, as the assignment requires.
